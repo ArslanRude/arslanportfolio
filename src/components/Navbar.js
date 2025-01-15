@@ -8,23 +8,18 @@ function Navbar({className}) {
   const [active, setActive] = useState(null);
   return (
     (<div
-      className={cn("fixed top-10 inset-x-0 max-w-xl mx-auto z-50", className)} >
-
+      className={cn("fixed top-10 inset-x-0 max-w-md mx-auto z-50", className)} >
       <Menu setActive={setActive}>
         <div className="flex justify-center items-center gap-5 "> 
-        <Link href="#">
+        <Link href="#home">
         <MenuItem setActive={setActive} active={active} item="Home" >
         </MenuItem>
         </Link>
-        <Link href="#">
+        <Link href="#about">
         <MenuItem setActive={setActive} active={active} item="About" >
         </MenuItem>
         </Link>
-        <Link href="#">
-        <MenuItem setActive={setActive} active={active} item="Experience" >
-        </MenuItem>
-        </Link>
-        <Link href="#">
+        <Link href="#services">
         <MenuItem setActive={setActive} active={active} item="Services" >
         </MenuItem>
         </Link>

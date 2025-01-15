@@ -43,12 +43,12 @@ const content = [
     {
       title: "Tools and Frameworks",
       description:
-        <p>
+        <span>
           To develop Generative AI solutions, I work with cutting-edge frameworks and technologies, including:
 
 -LangChain: For building advanced language models and integrating them into practical applications.<br/>
 -Pinecone: For implementing scalable vector databases that power efficient information retrieval and AI-driven search.
-        </p>,
+        </span>,
 
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
@@ -81,7 +81,7 @@ const content = [
   ];
   export function about() {
     return (
-      <div className="py-20 ">
+      <div className="py-20 " id='about'>
         <StickyScroll content={content} />
       </div>
     );

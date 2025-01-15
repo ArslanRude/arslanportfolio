@@ -3,13 +3,18 @@ import React from 'react';
 import Textreveal from '@/components/textreveal';
 import { Spotlight } from './ui/Spotlight';
 import { Button } from './ui/moving-border';
+import Link from 'next/link';
+import Image from "next/image";
+import arslan from "@/data/images/arslan-removebg.png";
 
 const home = () => {
+    
     return (
         <div className='min-h-screen md;h-[40rem] w-full rounded-md flex flex-col justify-center items-center relative overflow-hidden
-    mx-auto py-10 md:py-0'>
-            <div className="p-4 relative z-10 w-full bottom-0">
+    mx-auto py-10 md:py-0' id='home'>
+            <div className="p-4 relative z-10 w-full bottom-0 flex">
                 <div className="pb-10 md:pb-20 pt-10 md:pt-52 w-1/2 pl-40">
+                
                 <Spotlight
                     className="-top-40 left-40 md:left-60 md:-top-40 pb-10 md:pb-20"
                     fill="#ff9999"
@@ -25,16 +30,24 @@ const home = () => {
                 </h1>
                 <Textreveal />
                 <div className="pl-20 pt-20">
-                    <Button 
-                        borderRadius="1.75rem"
-                        className="bg-white dark:bg-[#090a0a] text-black dark:text-red-400
-                         border-neutral-200 dark:border-gray-700">
-                        Contect Me
-                    </Button>
+                    <Link href="#">
+                        <Button
+                            borderRadius="1.75rem"
+                            className="bg-white dark:bg-[#090a0a] text-black dark:text-red-400
+                            border-neutral-200 dark:border-gray-700">
+                            Contect Me
+                        </Button>
+                    </Link>
                 </div>
                 </div>
-                <div className="w-1/3 ">
-
+                <div className="z-20 w-1/3 flex justify-center items-center">
+                    {/* <Image
+                        src={arslan}
+                        width={300}
+                        height={300}
+                        className=""
+                        alt="linear board demo"
+                    />  */}
                 </div>
             </div>
         </div>
