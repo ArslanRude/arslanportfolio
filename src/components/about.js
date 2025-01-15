@@ -2,52 +2,79 @@
 import React from 'react';
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Image from "next/image";
+import gen_ai from "@/data/images/gen_ai.webp";
+import langchain from "@/data/images/langchain.jpg";
+import quick_learner from "@/data/images/1.jpg";
 
 const content = [
     {
-      title: "Collaborative Editing",
+      title: "About Me",
       description:
-        "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Collaborative Editing
-        </div>
-      ),
-    },
-    {
-      title: "Real time changes",
-      description:
-        "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+        "I am a passionate and driven Computer Science student in my 5th semester at TUF University, where I am pursuing a Bachelor of Science in Computer Science (BSCS). I have a strong interest in software development, problem-solving, and exploring the latest advancements in technology. My journey in the tech field is fueled by curiosity and a commitment to learning and growth.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
-          <Image
-            src="/linear.webp"
-            width={300}
-            height={300}
-            className="h-full w-full object-cover"
-            alt="linear board demo"
-          />
-        </div>
+        <Image
+          src={gen_ai}
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
+      </div>
       ),
     },
     {
-      title: "Version control",
+      title: "Exploring Generative AI",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "My current focus lies in Generative AI, specifically in the field of Agentic AI, where I aim to build intelligent systems that can independently reason and perform tasks. I am fascinated by the potential of AI to transform industries and solve complex problems. By diving into this domain, I am equipping myself with the knowledge and skills to contribute to the future of AI-driven innovation.",
       content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-          Version control
-        </div>
+        <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src={gen_ai}
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
+      </div>
       ),
     },
     {
-      title: "Running out of content",
+      title: "Tools and Frameworks",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        <p>
+          To develop Generative AI solutions, I work with cutting-edge frameworks and technologies, including:
+
+-LangChain: For building advanced language models and integrating them into practical applications.<br/>
+-Pinecone: For implementing scalable vector databases that power efficient information retrieval and AI-driven search.
+        </p>,
+
       content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Running out of content
-        </div>
+        <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src={langchain}
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
+      </div>
+      ),
+    },
+    {
+      title: "Quick Learner and Innovator",
+      description:
+        "I am a quick learner with an innate curiosity and a passion for exploring new concepts and technologies. I thrive on challenges that push me to expand my knowledge and skills, constantly seeking opportunities to grow and innovate. Whether it’s diving into a complex problem, mastering a new tool, or adapting to emerging trends, I approach every learning experience with enthusiasm and determination. For me, the process of discovery and growth is as rewarding as the outcomes it leads to.",
+      content: (
+        <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src={quick_learner}
+          width={900}
+          height={900}
+          className="h-full w-full object-cover"
+          alt="Quick Learner"
+        />
+      </div>
       ),
     },
   ];
