@@ -38,6 +38,7 @@ export default {
   },
   plugins: [
     addVariablesForColors,
+    require('tailwind-scrollbar'),
   ],
 };
 
