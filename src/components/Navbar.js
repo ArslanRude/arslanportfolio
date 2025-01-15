@@ -19,6 +19,10 @@ function Navbar({className}) {
         <MenuItem setActive={setActive} active={active} item="About" >
         </MenuItem>
         </Link>
+        <Link href="#project">
+        <MenuItem setActive={setActive} active={active} item="Projects" >
+        </MenuItem>
+        </Link>
         <Link href="#services">
         <MenuItem setActive={setActive} active={active} item="Services" >
         </MenuItem>
