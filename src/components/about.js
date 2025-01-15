@@ -5,6 +5,7 @@ import Image from "next/image";
 import gen_ai from "@/data/images/gen_ai.webp";
 import langchain from "@/data/images/langchain.jpg";
 import quick_learner from "@/data/images/1.jpg";
+import about_photo from "@/data/images/about_photo.jpg";
 
 const content = [
     {
@@ -14,7 +15,7 @@ const content = [
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src={gen_ai}
+          src={about_photo}
           width={300}
           height={300}
           className="h-full w-full object-cover"
