@@ -30,7 +30,7 @@ const home = () => {
                 </h1>
                 <Textreveal />
                 <div className="pl-20 pt-20">
-                    <Link href="#">
+                    <Link href="/contact">
                         <Button
                             borderRadius="1.75rem"
                             className="bg-white dark:bg-[#090a0a] text-black dark:text-red-400

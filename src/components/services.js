@@ -23,7 +23,7 @@ export function services() {
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-300 text-lg md:text-lg font-normal mb-8 text-justify">
+            id="genai" className="text-neutral-800 dark:text-neutral-300 text-lg md:text-lg font-normal mb-8 text-justify">
            I am actively working in the field of Natural Language Processing (NLP), where I focus on building systems that enable machines to understand, interpret, and generate human language effectively. My work involves designing algorithms and leveraging state-of-the-art technologies to solve complex language-related challenges, such as text analysis, sentiment detection, and conversational AI. By working with advanced tools and frameworks, I aim to create applications that bridge the gap between human communication and machine understanding, opening new possibilities for seamless interaction and automation in various domains.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -60,7 +60,7 @@ export function services() {
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-300 text-lg md:text-lg font-normal mb-8 text-justify">
+            id="agenticai" className="text-neutral-800 dark:text-neutral-300 text-lg md:text-lg font-normal mb-8 text-justify">
             I am currently working in the field of Agentic AI, where I specialize in designing intelligent systems capable of autonomous decision-making and task execution. My focus lies in creating AI agents that can independently reason, adapt, and interact with dynamic environments to achieve specific goals. Leveraging advanced frameworks like LangGraph and Phi Data, I develop robust architectures that enable these agents to process complex information, learn from interactions, and deliver impactful solutions. This cutting-edge field excites me as it merges innovation with practical application, driving the next generation of AI advancements.
           </p>
 
@@ -98,7 +98,7 @@ export function services() {
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-300 text-lg md:text-lg font-normal mb-8 text-justify">
+            id="webdev" className="text-neutral-800 dark:text-neutral-300 text-lg md:text-lg font-normal mb-8 text-justify">
             I am actively working in web development, specializing in building modern and responsive applications using Next.js. By leveraging this powerful React-based framework, I create dynamic and high-performance web solutions that prioritize user experience and scalability. My expertise includes server-side rendering, static site generation, and seamless integration of APIs, ensuring that the applications I build are optimized for both speed and functionality. Passionate about crafting clean and efficient code, I enjoy designing intuitive interfaces and delivering web experiences that meet the evolving needs of users and businesses alike.
           </p>
           <div className="grid grid-cols-2 gap-4">
