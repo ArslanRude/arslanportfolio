@@ -11,7 +11,7 @@ function Navbar({className}) {
       className={cn("fixed top-10 inset-x-0 max-w-md mx-auto z-50", className)} >
       <Menu setActive={setActive}>
         <div className="flex justify-center items-center gap-5 "> 
-        <Link href="#home">
+        <Link href="../">
         <MenuItem setActive={setActive} active={active} item="Home" >
         </MenuItem>
         </Link>
@@ -30,8 +30,8 @@ function Navbar({className}) {
         <Link href="#">
         <MenuItem setActive={setActive} active={active} item="Contact" >
         <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Contect Me</HoveredLink>
-            <HoveredLink href="/interface-design">Project With Me</HoveredLink>
+            <HoveredLink href="/contact">Contect Me</HoveredLink>
+            <HoveredLink href="/project">Project With Me</HoveredLink>
           </div>
         </MenuItem>
         </Link>

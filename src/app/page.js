@@ -5,7 +5,7 @@ import Link from "next/link";
 import About from "@/components/about";
 import Project from "@/components/project";
 import Services from "@/components/services"; 
-import Footer from "@/components/footer";
+
 
 export default function app() {
   return (
@@ -14,8 +14,8 @@ export default function app() {
             <About/>
             <Project/>
             <Services/>
-            <Footer/>
-            <Link href="#">
+
+            <Link href="https://drive.google.com/uc?export=download&id=1DqHPt3XVPQUW_EZCyWvaINkFhczZc1yL" >
               <div className="fixed bottom-0 right-0 p-10 z-50">
                   <CoverDemo/>
               </div>
